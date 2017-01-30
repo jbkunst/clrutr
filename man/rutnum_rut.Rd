@@ -2,24 +2,16 @@
 % Please edit documentation in R/rut.R
 \name{rutnum_rut}
 \alias{rutnum_rut}
-\title{Formatear un rut numerico a rut con digito verificador}
+\title{Formatear RUT numerico a RUT con digito verificador}
 \usage{
 rutnum_rut(rutnum, sep = "")
 }
 \arguments{
-\item{rutnum}{Rut en formato numerico}
+\item{rutnum}{RUT en formato numerico.}
 
-\item{sep}{separador}
+\item{sep}{Separador.}
 }
 \description{
-Formatear un rut numerico a rut con digito verificador
-}
-\examples{
-
-rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
-
-rutnum_rut(rutnum)
-rutnum_rut(rutnum, sep = "-")
-
+Formatear RUT numerico a RUT con digito verificador
 }
 

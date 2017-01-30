@@ -1,0 +1,46 @@
+---
+output: rmarkdown::github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+fig.retina = 2,
+  fig.path = "README_figs/README-"
+)
+```
+
+# `idlatr`
+
+Funciones para validación y formateo de distintos identificadores tributarios
+de países de Latinoamérica.
+
+## Instalación
+
+```{r eval=FALSE}
+source("https://install-github.me/r-latinoamerica/idlatr")
+```
+
+
+## RUT: Rol Único Tributario. Chile
+
+```{r}
+library(idlatr)
+rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
+
+rutnum_dv(rutnum)
+
+rutnum_rut(rutnum, sep = "-")
+rut <- rutnum_rut(rutnum)
+rut
+
+
+rut10 <- rut_rut10(rut)
+rut10
+
+rut10_rutnum(rut10)
+```
+

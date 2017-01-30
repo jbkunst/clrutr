@@ -10,5 +10,4 @@ rut
 rut10 <- rut_rut10(rut)
 rut10
 
-
 rut10_rutnum(rut10)

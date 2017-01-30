@@ -2,14 +2,14 @@
 % Please edit documentation in R/rut.R
 \name{rut_rut10}
 \alias{rut_rut10}
-\title{Formatear rut con digito verificador a rut de largo 10}
+\title{Formatear RUT con digito verificador a RUT de largo 10}
 \usage{
 rut_rut10(rut)
 }
 \arguments{
-\item{rut}{Rut con digito verificador.}
+\item{rut}{RUT con digito verificador.}
 }
 \description{
-Formatear rut con digito verificador a rut de largo 10
+Formatear RUT con digito verificador a RUT de largo 10
 }
 

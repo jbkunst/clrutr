@@ -42,12 +42,12 @@ rutnum_rut <- function(rutnum, sep = ""){
 
 
 #' Formatear RUT con digito verificador a RUT de largo 10
-#' @param RUT Rut con digito verificador.
+#' @param rut RUT con digito verificador.
 #' @importFrom stringr str_to_upper str_replace_all str_pad
 #' @export
 rut_rut10 <- function(rut) {
 
-  rut10 <- RUT %>%
+  rut10 <- rut %>%
     str_trim() %>%
     str_to_upper() %>%
     str_replace_all("-", "") %>%
