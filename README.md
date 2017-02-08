@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-`idlatr`
+`clrutr`
 ========
 
-Funciones para validación y formateo de distintos identificadores tributarios de países de Latinoamérica.
+Funciones para validación y formateo de Rol Unico Tributario Chileno.
 
 Instalación
 -----------
@@ -12,11 +12,11 @@ Instalación
 source("https://install-github.me/r-latinoamerica/idlatr")
 ```
 
-RUT: Rol Único Tributario. Chile
---------------------------------
+Funciones
+---------
 
 ``` r
-library(idlatr)
+library(clrutr)
 rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
 
 rutnum_dv(rutnum)
