@@ -20,7 +20,7 @@ Funciones para validación y formateo de Rol Unico Tributario Chileno.
 ## Instalación
 
 ```{r eval=FALSE}
-source("https://install-github.me/r-latinoamerica/idlatr")
+source("https://install-github.me/r-latinoamerica/clrutr")
 ```
 
 ## Funciones
