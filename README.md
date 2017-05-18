@@ -9,7 +9,7 @@ Instalación
 -----------
 
 ``` r
-source("https://install-github.me/r-latinoamerica/idlatr")
+source("https://install-github.me/r-latinoamerica/clrutr")
 ```
 
 Funciones
