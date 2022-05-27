@@ -1,11 +1,14 @@
 #' Funciones para el tratamiento y formato de identificadores tributarios
 #' 
+#' @description Funciones para el tratamiento y formato de 
+#'   identificadores tributarios
+#' 
 #' @name clrutr
 #' @docType package
 #' @author Joshua Kunst (@@jbkunst)
 NULL
 
-#' idlatr exported operators and S3 methods
+#' clrutr exported operators and S3 methods
 #' 
 #' The following functions are imported and then re-exported
 #' from the clrutr package to avoid listing the magrittr
