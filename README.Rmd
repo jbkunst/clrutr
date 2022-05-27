@@ -1,17 +1,24 @@
 ---
-output: rmarkdown::github_document
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-fig.retina = 2,
-  fig.path = "README_figs/README-"
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
 ```
+
+# clrutr
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/jbkunst/clrutr/workflows/R-CMD-check/badge.svg)](https://github.com/jbkunst/clrutr/actions)
+<!-- badges: end -->
+
 
 # `clrutr`
 
@@ -41,4 +48,3 @@ rut10
 
 rut10_rutnum(rut10)
 ```
-

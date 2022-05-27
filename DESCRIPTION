@@ -1,8 +1,9 @@
 Package: clrutr
-Title: What the Package Does (one line, title case)
+Title: Funciones para formatear Rol Unico Tributario de Chile
 Version: 0.0.0.9000
 Authors@R: person("Joshua", "Kunst", email = "jbkunst@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Funciones para formatear en distintos formatos el rol unico 
+  tributario de Chile. 
 Depends:
     R (>= 3.3.1)
 License: MIT + file LICENSE

@@ -1,5 +1,13 @@
 #' Calculo digito verificador de RUTs
+#' 
 #' @param rutnum ruts en formato numerico.
+#' 
+#' @examples 
+#'
+#' rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
+#' 
+#' rutnum_dv(rutnum)
+#' 
 #' @importFrom purrr map map_chr
 #' @importFrom stringr str_trim str_split 
 #' @importFrom dplyr case_when
@@ -30,8 +38,16 @@ rutnum_dv <- function(rutnum){
 }
 
 #' Formatear RUT numerico a RUT con digito verificador
+#' 
 #' @param rutnum RUT en formato numerico.
 #' @param sep Separador.
+#' 
+#' @examples 
+#' 
+#' rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
+#' 
+#' rutnum_rut(rutnum)
+#' 
 #' @importFrom stringr str_c
 #' @export
 rutnum_rut <- function(rutnum, sep = ""){
@@ -42,7 +58,17 @@ rutnum_rut <- function(rutnum, sep = ""){
 
 
 #' Formatear RUT con digito verificador a RUT de largo 10
+#' 
 #' @param rut RUT con digito verificador.
+#' 
+#' @examples
+#' 
+#' ruts <-  rutnum_rut(c(16019432, 16355485, 15724861, 121, 6505922))
+#' 
+#' ruts
+#' 
+#' rut_rut10(ruts)
+#' 
 #' @importFrom stringr str_to_upper str_replace_all str_pad
 #' @export
 rut_rut10 <- function(rut) {
@@ -58,7 +84,15 @@ rut_rut10 <- function(rut) {
 }
 
 #' Formatear un RUT de largo 10 a RUT numerico
+#' 
 #' @param rut10 RUT con digito verificador de largo 10.
+#' 
+#' r10 <- rut_rut10(rutnum_rut(c(16019432, 16355485, 15724861, 121, 6505922)))
+#' 
+#' r10
+#' 
+#' rut10_rutnum(r10)
+#' 
 #' @importFrom stringr str_sub
 #' @export
 rut10_rutnum <- function(rut10){
