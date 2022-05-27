@@ -14,4 +14,10 @@ rutnum_rut(rutnum, sep = "")
 \description{
 Formatear RUT numerico a RUT con digito verificador
 }
+\examples{
 
+rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
+
+rutnum_rut(rutnum)
+
+}

@@ -12,4 +12,10 @@ rutnum_dv(rutnum)
 \description{
 Calculo digito verificador de RUTs
 }
+\examples{
 
+rutnum <- c(16019432, 16355485, 15724861, 121, 6505922)
+
+rutnum_dv(rutnum)
+
+}

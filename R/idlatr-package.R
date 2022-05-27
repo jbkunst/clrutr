@@ -1,6 +1,6 @@
 #' Funciones para el tratamiento y formato de identificadores tributarios
 #' 
-#' @name idlatr
+#' @name clrutr
 #' @docType package
 #' @author Joshua Kunst (@@jbkunst)
 NULL
@@ -8,16 +8,16 @@ NULL
 #' idlatr exported operators and S3 methods
 #' 
 #' The following functions are imported and then re-exported
-#' from the idlatr package to avoid listing the magrittr
-#' as Depends of idlatr.
+#' from the clrutr package to avoid listing the magrittr
+#' as Depends of clrutr
 #' 
-#' @name idlatr-exports
+#' @name clrutr-exports
 NULL
 
 #' @importFrom magrittr %>%
 #' @name %>%
 #' @export
-#' @rdname idlatr-exports
+#' @rdname clrutr-exports
 NULL
 
 

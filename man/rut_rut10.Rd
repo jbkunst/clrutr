@@ -12,4 +12,12 @@ rut_rut10(rut)
 \description{
 Formatear RUT con digito verificador a RUT de largo 10
 }
+\examples{
 
+ruts <-  rutnum_rut(c(16019432, 16355485, 15724861, 121, 6505922))
+
+ruts
+
+rut_rut10(ruts)
+
+}

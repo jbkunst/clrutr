@@ -14,5 +14,5 @@ Imports:
     stringr,
     dplyr,
     magrittr
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.2
 URL: https://jkunst.com/clrutr/
