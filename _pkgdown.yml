@@ -1,18 +1,20 @@
 url: https://jkunst.com/clrutr/
-
 authors:
   Joshua Kunst:
     href: https://jkunst.com
-
 template:
   bootstrap: 5
   bslib:
-    primary: "#0054AD"
+    primary: '#0054AD'
     border-radius: 0.5rem
     btn-border-radius: 0.25rem
-    base_font:    {google: "IBM Plex Sans"}
-    code_font:    {google: "Fira Mono"}
-    heading_font: {google: "Josefin Sans"}
-    headings-color:  "#333333"
+    base_font:
+      google: IBM Plex Sans
+    code_font:
+      google: Fira Mono
+    heading_font:
+      google: Josefin Sans
+    headings-color: '#333333'
     headings-line-height: 5rem
     headings-margin-bottom: -1rem
+
