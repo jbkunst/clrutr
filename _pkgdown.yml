@@ -2,6 +2,7 @@ url: https://jkunst.com/clrutr/
 authors:
   Joshua Kunst:
     href: https://jkunst.com
+lang: es
 template:
   bootstrap: 5
   bslib:
