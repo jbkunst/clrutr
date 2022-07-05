@@ -103,3 +103,25 @@ rut10_rutnum <- function(rut10){
 
   rutnum
 }
+
+#' Formatear una cadena de texto o numero en formato RUT
+#' 
+#' @param rut RUT con o sin digito verificador, con o sin guion y/o puntos.
+#' 
+#' ruttexto_rutnum("16.019.432")
+#'  
+#' @export
+as_rut <- function(rut){
+  
+  rutnum <- rut %>%
+    str_trim() %>% 
+    str_replace_all(pattern = "\\.|-|[a-z]|[A-Z]", replacement = "") 
+  
+  if (nchar(rutnum) < 9) {
+    dv <- rutnum_dv(rutnum)
+    
+    if (str_sub(rutnum, start = -1, end = -1) != dv) rutnum <- str_c(rutnum, dv)
+  }  
+  
+  rutnum
+}
