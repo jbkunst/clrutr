@@ -14,5 +14,7 @@ Imports:
     stringr,
     dplyr,
     magrittr
+Suggests:
+    testthat
 RoxygenNote: 7.2.0
 URL: https://jkunst.com/clrutr/
