@@ -113,15 +113,31 @@ rut10_rutnum <- function(rut10){
 #' @export
 as_rut <- function(rut){
   
-  rutnum <- rut %>%
-    str_trim() %>% 
-    str_replace_all(pattern = "\\.|-|[a-z]|[A-Z]", replacement = "") 
-  
-  if (nchar(rutnum) < 9) {
-    dv <- rutnum_dv(rutnum)
+  purrr::map_chr(rut, function(x) {
     
-    if (str_sub(rutnum, start = -1, end = -1) != dv) rutnum <- str_c(rutnum, dv)
-  }  
+    if (is.na(x)) {
+      return(NA_character_)
+    }
+    
+    rutnum <- x %>%
+      as.character() %>%
+      str_trim() %>% 
+      str_replace_all(pattern = "\\.|-|[a-z]|[A-Z]", replacement = "")
+    
+    if (!nzchar(rutnum)) {
+      return(NA_character_)
+    }
+    
+    if (nchar(rutnum) < 9) {
+      dv <- rutnum_dv(rutnum)
+      
+      if (str_sub(rutnum, start = -1, end = -1) != dv) {
+        rutnum <- str_c(rutnum, dv)
+      }
+    }
+    
+    rutnum
+    
+  })
   
-  rutnum
 }
