@@ -15,5 +15,5 @@ Imports:
     dplyr
 Suggests:
     testthat
-RoxygenNote: 7.2.0
 URL: https://jkunst.com/clrutr/
+Config/roxygen2/version: 8.0.0

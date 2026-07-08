@@ -1,12 +1,8 @@
-#' Funciones para el tratamiento y formato de identificadores tributarios
-#' 
-#' @description Funciones para el tratamiento y formato de 
-#'   identificadores tributarios
-#' 
-#' @name clrutr
-#' @docType package
-#' @author Joshua Kunst (@@jbkunst)
-NULL
+#' clrutr: Funciones para el tratamiento y formato de identificadores tributarios
+#'
+#' Funciones para el tratamiento y formato de identificadores tributarios.
+#'
+#' @keywords internal
+"_PACKAGE"
 
-
-if (getRversion() >= "2.15.1")  utils::globalVariables(c("."))
+if (getRversion() >= "2.15.1") utils::globalVariables(c("."))
