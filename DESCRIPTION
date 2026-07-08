@@ -12,8 +12,7 @@ LazyData: true
 Imports:
     purrr,
     stringr,
-    dplyr,
-    magrittr
+    dplyr
 Suggests:
     testthat
 RoxygenNote: 7.2.0
