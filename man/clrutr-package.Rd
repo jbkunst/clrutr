@@ -12,6 +12,8 @@ Funciones para el tratamiento y formato de identificadores tributarios.
 Useful links:
 \itemize{
   \item \url{https://jkunst.com/clrutr/}
+  \item \url{https://github.com/jbkunst/clrutr}
+  \item Report bugs at \url{https://github.com/jbkunst/clrutr/issues}
 }
 
 }

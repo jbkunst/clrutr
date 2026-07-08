@@ -1,6 +1,6 @@
 Package: clrutr
 Title: Funciones para formatear Rol Unico Tributario de Chile
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Joshua", "Kunst", email = "jbkunst@gmail.com", role = c("aut", "cre"))
 Description: Funciones para formatear en distintos formatos el rol unico 
   tributario de Chile. 
@@ -15,5 +15,6 @@ Imports:
     dplyr
 Suggests:
     testthat
-URL: https://jkunst.com/clrutr/
+URL: https://jkunst.com/clrutr/, https://github.com/jbkunst/clrutr
+BugReports: https://github.com/jbkunst/clrutr/issues
 Config/roxygen2/version: 8.0.0
