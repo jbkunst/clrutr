@@ -5,15 +5,14 @@ Authors@R: person("Joshua", "Kunst", email = "jbkunst@gmail.com", role = c("aut"
 Description: Funciones para formatear en distintos formatos el rol unico 
   tributario de Chile. 
 Depends:
-    R (>= 3.3.1)
+    R (>= 4.1.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
     purrr,
     stringr,
-    dplyr,
-    magrittr
+    dplyr
 Suggests:
     testthat
 RoxygenNote: 7.2.0
