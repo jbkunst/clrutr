@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 docs
+
+/.quarto/
+**/*.quarto_ipynb
