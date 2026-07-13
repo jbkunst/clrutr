@@ -1,0 +1,4 @@
+# License
+
+    YEAR: 2017
+    COPYRIGHT HOLDER: Joshua Kunst <jbkunst@gmail.com>
